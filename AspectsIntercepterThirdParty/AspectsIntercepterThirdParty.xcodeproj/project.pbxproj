@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65DA6DB0B370DDD0CBF28AAD /* Pods_AspectsIntercepterThirdParty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5EF0F412112D9F29D5F7BB /* Pods_AspectsIntercepterThirdParty.framework */; };
+		6C2C32D81FB2AEE0001DC10E /* UMengAnalyticsIntercepter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2C32D71FB2AEE0001DC10E /* UMengAnalyticsIntercepter.m */; };
+		6C2C32DB1FB2AFE5001DC10E /* UMengUShareIntercepter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2C32DA1FB2AFE5001DC10E /* UMengUShareIntercepter.m */; };
+		6C2C32DE1FB2D4A9001DC10E /* AMapIntercepter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2C32DD1FB2D4A9001DC10E /* AMapIntercepter.m */; };
+		6C2C32E11FB2D700001DC10E /* BaiduMapIntercepter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2C32E01FB2D700001DC10E /* BaiduMapIntercepter.m */; };
+		6CC2A7D31FB1B05F00A496EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC2A7D21FB1B05F00A496EF /* AppDelegate.m */; };
+		6CC2A7D61FB1B05F00A496EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC2A7D51FB1B05F00A496EF /* ViewController.m */; };
+		6CC2A7D91FB1B05F00A496EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CC2A7D71FB1B05F00A496EF /* Main.storyboard */; };
+		6CC2A7DB1FB1B05F00A496EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CC2A7DA1FB1B05F00A496EF /* Assets.xcassets */; };
+		6CC2A7DE1FB1B05F00A496EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CC2A7DC1FB1B05F00A496EF /* LaunchScreen.storyboard */; };
+		6CC2A7E11FB1B05F00A496EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC2A7E01FB1B05F00A496EF /* main.m */; };
+		6CC2A7F21FB1B92E00A496EF /* PgyerIntercepter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC2A7F11FB1B92E00A496EF /* PgyerIntercepter.m */; };
+		6CC2A7F61FB1C1A800A496EF /* JPushIntercepter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC2A7F51FB1C1A800A496EF /* JPushIntercepter.m */; };
+		6CC2A7F91FB1C1B900A496EF /* BuglyIntercepter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC2A7F81FB1C1B900A496EF /* BuglyIntercepter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00ABDA0788E681BFAD40B783 /* Pods-AspectsIntercepterThirdParty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AspectsIntercepterThirdParty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AspectsIntercepterThirdParty/Pods-AspectsIntercepterThirdParty.debug.xcconfig"; sourceTree = "<group>"; };
+		0DC3394B99BD76E718366941 /* Pods-AspectsIntercepterThirdParty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AspectsIntercepterThirdParty.release.xcconfig"; path = "Pods/Target Support Files/Pods-AspectsIntercepterThirdParty/Pods-AspectsIntercepterThirdParty.release.xcconfig"; sourceTree = "<group>"; };
+		6C2C32D41FB2A96D001DC10E /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		6C2C32D51FB2A973001DC10E /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		6C2C32D61FB2AEE0001DC10E /* UMengAnalyticsIntercepter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMengAnalyticsIntercepter.h; sourceTree = "<group>"; };
+		6C2C32D71FB2AEE0001DC10E /* UMengAnalyticsIntercepter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMengAnalyticsIntercepter.m; sourceTree = "<group>"; };
+		6C2C32D91FB2AFE5001DC10E /* UMengUShareIntercepter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMengUShareIntercepter.h; sourceTree = "<group>"; };
+		6C2C32DA1FB2AFE5001DC10E /* UMengUShareIntercepter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMengUShareIntercepter.m; sourceTree = "<group>"; };
+		6C2C32DC1FB2D4A9001DC10E /* AMapIntercepter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMapIntercepter.h; sourceTree = "<group>"; };
+		6C2C32DD1FB2D4A9001DC10E /* AMapIntercepter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMapIntercepter.m; sourceTree = "<group>"; };
+		6C2C32DF1FB2D700001DC10E /* BaiduMapIntercepter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaiduMapIntercepter.h; sourceTree = "<group>"; };
+		6C2C32E01FB2D700001DC10E /* BaiduMapIntercepter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiduMapIntercepter.m; sourceTree = "<group>"; };
+		6CC2A7CE1FB1B05F00A496EF /* AspectsIntercepterThirdParty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AspectsIntercepterThirdParty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CC2A7D11FB1B05F00A496EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CC2A7D21FB1B05F00A496EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CC2A7D41FB1B05F00A496EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6CC2A7D51FB1B05F00A496EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6CC2A7D81FB1B05F00A496EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CC2A7DA1FB1B05F00A496EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CC2A7DD1FB1B05F00A496EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CC2A7DF1FB1B05F00A496EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CC2A7E01FB1B05F00A496EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CC2A7F01FB1B92E00A496EF /* PgyerIntercepter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PgyerIntercepter.h; sourceTree = "<group>"; };
+		6CC2A7F11FB1B92E00A496EF /* PgyerIntercepter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PgyerIntercepter.m; sourceTree = "<group>"; };
+		6CC2A7F31FB1BC6500A496EF /* ThirdPartyConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdPartyConfig.h; sourceTree = "<group>"; };
+		6CC2A7F41FB1C1A800A496EF /* JPushIntercepter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPushIntercepter.h; sourceTree = "<group>"; };
+		6CC2A7F51FB1C1A800A496EF /* JPushIntercepter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPushIntercepter.m; sourceTree = "<group>"; };
+		6CC2A7F71FB1C1B900A496EF /* BuglyIntercepter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuglyIntercepter.h; sourceTree = "<group>"; };
+		6CC2A7F81FB1C1B900A496EF /* BuglyIntercepter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuglyIntercepter.m; sourceTree = "<group>"; };
+		7B5EF0F412112D9F29D5F7BB /* Pods_AspectsIntercepterThirdParty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AspectsIntercepterThirdParty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CC2A7CB1FB1B05F00A496EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DA6DB0B370DDD0CBF28AAD /* Pods_AspectsIntercepterThirdParty.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FFF22A89C9C2C0C905170A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C2C32D51FB2A973001DC10E /* UserNotificationsUI.framework */,
+				6C2C32D41FB2A96D001DC10E /* UserNotifications.framework */,
+				7B5EF0F412112D9F29D5F7BB /* Pods_AspectsIntercepterThirdParty.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CC2A7C51FB1B05F00A496EF = {
+			isa = PBXGroup;
+			children = (
+				6CC2A7D01FB1B05F00A496EF /* AspectsIntercepterThirdParty */,
+				6CC2A7CF1FB1B05F00A496EF /* Products */,
+				B0CFEC934F72675EAFF56002 /* Pods */,
+				5FFF22A89C9C2C0C905170A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6CC2A7CF1FB1B05F00A496EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CC2A7CE1FB1B05F00A496EF /* AspectsIntercepterThirdParty.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CC2A7D01FB1B05F00A496EF /* AspectsIntercepterThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				6CC2A7E71FB1B8ED00A496EF /* Common */,
+				6CC2A7D11FB1B05F00A496EF /* AppDelegate.h */,
+				6CC2A7D21FB1B05F00A496EF /* AppDelegate.m */,
+				6CC2A7D41FB1B05F00A496EF /* ViewController.h */,
+				6CC2A7D51FB1B05F00A496EF /* ViewController.m */,
+				6CC2A7D71FB1B05F00A496EF /* Main.storyboard */,
+				6CC2A7DA1FB1B05F00A496EF /* Assets.xcassets */,
+				6CC2A7DC1FB1B05F00A496EF /* LaunchScreen.storyboard */,
+				6CC2A7DF1FB1B05F00A496EF /* Info.plist */,
+				6CC2A7E01FB1B05F00A496EF /* main.m */,
+			);
+			path = AspectsIntercepterThirdParty;
+			sourceTree = "<group>";
+		};
+		6CC2A7E71FB1B8ED00A496EF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6CC2A7E81FB1B8ED00A496EF /* ThirdParty */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6CC2A7E81FB1B8ED00A496EF /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				6CC2A7F31FB1BC6500A496EF /* ThirdPartyConfig.h */,
+				6CC2A7E91FB1B8ED00A496EF /* AMap */,
+				6CC2A7EA1FB1B8ED00A496EF /* BaiduMap */,
+				6CC2A7EB1FB1B8ED00A496EF /* Bugly */,
+				6CC2A7EC1FB1B8ED00A496EF /* JPush */,
+				6CC2A7ED1FB1B8ED00A496EF /* Pgyer */,
+				6CC2A7EE1FB1B8ED00A496EF /* UMengAnalytics */,
+				6CC2A7EF1FB1B8ED00A496EF /* UMengUShare */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		6CC2A7E91FB1B8ED00A496EF /* AMap */ = {
+			isa = PBXGroup;
+			children = (
+				6C2C32DC1FB2D4A9001DC10E /* AMapIntercepter.h */,
+				6C2C32DD1FB2D4A9001DC10E /* AMapIntercepter.m */,
+			);
+			path = AMap;
+			sourceTree = "<group>";
+		};
+		6CC2A7EA1FB1B8ED00A496EF /* BaiduMap */ = {
+			isa = PBXGroup;
+			children = (
+				6C2C32DF1FB2D700001DC10E /* BaiduMapIntercepter.h */,
+				6C2C32E01FB2D700001DC10E /* BaiduMapIntercepter.m */,
+			);
+			path = BaiduMap;
+			sourceTree = "<group>";
+		};
+		6CC2A7EB1FB1B8ED00A496EF /* Bugly */ = {
+			isa = PBXGroup;
+			children = (
+				6CC2A7F71FB1C1B900A496EF /* BuglyIntercepter.h */,
+				6CC2A7F81FB1C1B900A496EF /* BuglyIntercepter.m */,
+			);
+			path = Bugly;
+			sourceTree = "<group>";
+		};
+		6CC2A7EC1FB1B8ED00A496EF /* JPush */ = {
+			isa = PBXGroup;
+			children = (
+				6CC2A7F41FB1C1A800A496EF /* JPushIntercepter.h */,
+				6CC2A7F51FB1C1A800A496EF /* JPushIntercepter.m */,
+			);
+			path = JPush;
+			sourceTree = "<group>";
+		};
+		6CC2A7ED1FB1B8ED00A496EF /* Pgyer */ = {
+			isa = PBXGroup;
+			children = (
+				6CC2A7F01FB1B92E00A496EF /* PgyerIntercepter.h */,
+				6CC2A7F11FB1B92E00A496EF /* PgyerIntercepter.m */,
+			);
+			path = Pgyer;
+			sourceTree = "<group>";
+		};
+		6CC2A7EE1FB1B8ED00A496EF /* UMengAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				6C2C32D61FB2AEE0001DC10E /* UMengAnalyticsIntercepter.h */,
+				6C2C32D71FB2AEE0001DC10E /* UMengAnalyticsIntercepter.m */,
+			);
+			path = UMengAnalytics;
+			sourceTree = "<group>";
+		};
+		6CC2A7EF1FB1B8ED00A496EF /* UMengUShare */ = {
+			isa = PBXGroup;
+			children = (
+				6C2C32D91FB2AFE5001DC10E /* UMengUShareIntercepter.h */,
+				6C2C32DA1FB2AFE5001DC10E /* UMengUShareIntercepter.m */,
+			);
+			path = UMengUShare;
+			sourceTree = "<group>";
+		};
+		B0CFEC934F72675EAFF56002 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00ABDA0788E681BFAD40B783 /* Pods-AspectsIntercepterThirdParty.debug.xcconfig */,
+				0DC3394B99BD76E718366941 /* Pods-AspectsIntercepterThirdParty.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CC2A7CD1FB1B05F00A496EF /* AspectsIntercepterThirdParty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC2A7E41FB1B05F00A496EF /* Build configuration list for PBXNativeTarget "AspectsIntercepterThirdParty" */;
+			buildPhases = (
+				7D807424BB6FDBC296114E9B /* [CP] Check Pods Manifest.lock */,
+				6CC2A7CA1FB1B05F00A496EF /* Sources */,
+				6CC2A7CB1FB1B05F00A496EF /* Frameworks */,
+				6CC2A7CC1FB1B05F00A496EF /* Resources */,
+				79AC2254AE14B8558DA81833 /* [CP] Embed Pods Frameworks */,
+				817A6D8ED1624A6091B2FE25 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AspectsIntercepterThirdParty;
+			productName = AspectsIntercepterThirdParty;
+			productReference = 6CC2A7CE1FB1B05F00A496EF /* AspectsIntercepterThirdParty.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CC2A7C61FB1B05F00A496EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = xushuduo;
+				TargetAttributes = {
+					6CC2A7CD1FB1B05F00A496EF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6CC2A7C91FB1B05F00A496EF /* Build configuration list for PBXProject "AspectsIntercepterThirdParty" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CC2A7C51FB1B05F00A496EF;
+			productRefGroup = 6CC2A7CF1FB1B05F00A496EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CC2A7CD1FB1B05F00A496EF /* AspectsIntercepterThirdParty */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CC2A7CC1FB1B05F00A496EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC2A7DE1FB1B05F00A496EF /* LaunchScreen.storyboard in Resources */,
+				6CC2A7DB1FB1B05F00A496EF /* Assets.xcassets in Resources */,
+				6CC2A7D91FB1B05F00A496EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79AC2254AE14B8558DA81833 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AspectsIntercepterThirdParty/Pods-AspectsIntercepterThirdParty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D807424BB6FDBC296114E9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		817A6D8ED1624A6091B2FE25 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AspectsIntercepterThirdParty/Pods-AspectsIntercepterThirdParty-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CC2A7CA1FB1B05F00A496EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C2C32DE1FB2D4A9001DC10E /* AMapIntercepter.m in Sources */,
+				6CC2A7D61FB1B05F00A496EF /* ViewController.m in Sources */,
+				6CC2A7F21FB1B92E00A496EF /* PgyerIntercepter.m in Sources */,
+				6CC2A7F61FB1C1A800A496EF /* JPushIntercepter.m in Sources */,
+				6C2C32E11FB2D700001DC10E /* BaiduMapIntercepter.m in Sources */,
+				6C2C32D81FB2AEE0001DC10E /* UMengAnalyticsIntercepter.m in Sources */,
+				6C2C32DB1FB2AFE5001DC10E /* UMengUShareIntercepter.m in Sources */,
+				6CC2A7F91FB1C1B900A496EF /* BuglyIntercepter.m in Sources */,
+				6CC2A7E11FB1B05F00A496EF /* main.m in Sources */,
+				6CC2A7D31FB1B05F00A496EF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6CC2A7D71FB1B05F00A496EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CC2A7D81FB1B05F00A496EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CC2A7DC1FB1B05F00A496EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CC2A7DD1FB1B05F00A496EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CC2A7E21FB1B05F00A496EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6CC2A7E31FB1B05F00A496EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CC2A7E51FB1B05F00A496EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00ABDA0788E681BFAD40B783 /* Pods-AspectsIntercepterThirdParty.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23F8C2YFT2;
+				INFOPLIST_FILE = AspectsIntercepterThirdParty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.xsd.AspectsIntercepterThirdParty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CC2A7E61FB1B05F00A496EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DC3394B99BD76E718366941 /* Pods-AspectsIntercepterThirdParty.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23F8C2YFT2;
+				INFOPLIST_FILE = AspectsIntercepterThirdParty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.xsd.AspectsIntercepterThirdParty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CC2A7C91FB1B05F00A496EF /* Build configuration list for PBXProject "AspectsIntercepterThirdParty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CC2A7E21FB1B05F00A496EF /* Debug */,
+				6CC2A7E31FB1B05F00A496EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CC2A7E41FB1B05F00A496EF /* Build configuration list for PBXNativeTarget "AspectsIntercepterThirdParty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CC2A7E51FB1B05F00A496EF /* Debug */,
+				6CC2A7E61FB1B05F00A496EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CC2A7C61FB1B05F00A496EF /* Project object */;
+}

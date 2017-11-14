@@ -1,0 +1,46 @@
+PODS:
+  - AMap3DMap (5.4.0):
+    - AMapFoundation (~> 1.3)
+  - AMapFoundation (1.4.2)
+  - Aspects (1.4.1)
+  - BaiduMapKit (3.4.2)
+  - Bugly (2.4.8)
+  - JCore (1.1.6)
+  - JPush (3.0.7):
+    - JCore (~> 1.1.6)
+  - Pgyer (2.8.7)
+  - PgyUpdate (1.5)
+  - UMengAnalytics-NO-IDFA (4.2.5)
+  - UMengUShare/Core (6.4.6):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.4.6)
+  - UMengUShare/UI (6.4.6):
+    - UMengUShare/Core
+
+DEPENDENCIES:
+  - AMap3DMap
+  - Aspects
+  - BaiduMapKit
+  - Bugly
+  - JPush
+  - Pgyer
+  - PgyUpdate
+  - UMengAnalytics-NO-IDFA
+  - UMengUShare/UI
+
+SPEC CHECKSUMS:
+  AMap3DMap: 3eb906ac6b9d488413ab26c24f67eca4b4ad4641
+  AMapFoundation: 6c0471c9a6a0ad17dad46e3d800ad56ca170f82a
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  BaiduMapKit: f61b19ecf07a3f2deede72b221b366bf698739ed
+  Bugly: da3c02408c14838d498429320545a8e439392978
+  JCore: 18fc8725124f26e55625eaf224659b3a999dcf63
+  JPush: 111b79b8a0169ab8fd4c486dac3ed166ed69293e
+  Pgyer: 94e52b954e7595c86fa5ba70a154cb1d31d4be0d
+  PgyUpdate: bad71685b91bba4aa520b7fe29356a476700fdf2
+  UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
+  UMengUShare: fdbbf86353976727af26a66e9a84314ecb59c816
+
+PODFILE CHECKSUM: a225d45be2e7642d8af910d2aace7f15012c5e76
+
+COCOAPODS: 1.2.1

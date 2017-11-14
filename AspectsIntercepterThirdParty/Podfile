@@ -1,0 +1,46 @@
+platform :ios, '8.0'
+
+use_frameworks!
+
+inhibit_all_warnings!
+
+target 'AspectsIntercepterThirdParty' do
+
+	# Aspects
+	pod 'Aspects'
+
+	# 友盟统计
+	pod 'UMengAnalytics-NO-IDFA'
+
+	# 友盟分享
+	pod 'UMengUShare/UI'
+
+	# 极光推送
+	pod 'JPush'
+
+	# 腾讯Bugly
+	pod 'Bugly'
+
+	# 蒲公英
+	pod 'Pgyer'
+	pod 'PgyUpdate'
+
+	# 高德地图
+	pod 'AMap3DMap'
+
+	# 百度地图
+	pod 'BaiduMapKit'
+
+end
+
+# Installing AMap3DMap (5.4.0)
+# Installing AMapFoundation (1.4.2)
+# Installing Aspects (1.4.1)
+# Installing BaiduMapKit (3.4.2)
+# Installing Bugly (2.4.8)
+# Installing JCore (1.1.6)
+# Installing JPush (3.0.7)
+# Installing PgyUpdate (1.5)
+# Installing Pgyer (2.8.7)
+# Installing UMengAnalytics-NO-IDFA (4.2.5)
+# Installing UMengUShare (6.4.6)
